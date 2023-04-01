@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portofolio</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Portofolio Zilly Zunaidi</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<h2>Welcome to my portfolio!</h2>
+			<p>Here, you can find my latest work and get to know me a little better.</p>
+			<div class="btn-holder">
+				<a href="#" class="btn">See my work</a>
+			</div>
+		</section>
+
+		<section class="services">
+			<h2>Services</h2>
+			<p>Here are some of the main services that I offer:</p>
+			<ul>
+				<li>Web Development</li>
+				<li>Front-End Development</li>
+				<li>Data Analystic</li>
+				<li>Data Scientist</li>
+			</ul>
+		</section>
+
+		<section class="gallery">
+			<h2>Gallery</h2>
+			<div class="image-gallery">
+				<img src="img/gallery-1.jpg" alt="Gallery Image">
+				<img src="img/gallery-2.jpg" alt="Gallery Image">
+				<img src="img/gallery-3.jpg" alt="Gallery Image">
+			</div>
+		</section>
+
+		<section class="contact">
+			<h2>Contact</h2>
+			<form method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Your name..." required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Your email..." required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+				<button type="submit">Send</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2022 My Portfolio. All rights reserved.</p>
+	</footer>
+</body>
+</html>
